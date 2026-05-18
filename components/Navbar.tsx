@@ -13,7 +13,7 @@ const navLinks = [
   { href: "#contacto", label: "CONTACTO" },
 ];
 
-const WHATSAPP_NUMBER = "5493513124567";
+const WHATSAPP_NUMBER = "5493513853153";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Hola!%20Quiero%20reservar%20una%20experiencia%20con%20One%20Break%20Adventure.`;
 
 export default function Navbar() {

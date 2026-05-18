@@ -80,17 +80,23 @@ one-break-adventure/
 ## ✏️ Personalización — Checklist
 
 ### 🔢 Datos de contacto
-Buscá `5493513124567` en todos los archivos y reemplazá con el número real de WhatsApp (sin + ni espacios).
+
+Buscá `5493513853153` en todos los archivos y reemplazá con el número real de WhatsApp (sin + ni espacios).
 
 ### 📹 Video Hero
+
 En `components/Hero.tsx`:
+
 ```tsx
 <source src="/videos/hero.mp4" type="video/mp4" />
 ```
+
 Copiá tu video en `public/videos/hero.mp4`.
 
 ### 🖼️ Imágenes de experiencias
+
 En `components/Experiences.tsx`, reemplazá el `<div>` placeholder por:
+
 ```tsx
 import Image from "next/image";
 // ...
@@ -101,35 +107,40 @@ import Image from "next/image";
   height={400}
   className="w-full h-56 object-cover"
   loading="lazy"
-/>
+/>;
 ```
+
 Copiá las imágenes en `public/images/`.
 
 ### 🗺️ Google Maps
+
 En `components/Location.tsx`, reemplazá el `<div>` placeholder por el `<iframe>` de Google Maps con tus coordenadas reales.
 
 ### 📸 Galería
+
 En `components/Gallery.tsx`, reemplazá los divs placeholder con `<Image>` de Next.js.
 
 ### 📧 Email y redes sociales
+
 Editá los links en `components/Footer.tsx`.
 
 ### 💰 Precios
+
 Editá el array `experiences` en `components/Experiences.tsx`.
 
 ---
 
 ## 🎨 Sistema de diseño
 
-| Token | Valor |
-|-------|-------|
-| Forest 600 (primary) | `#3a5a30` |
-| Forest 700 | `#2d4625` |
-| Gold accent | `#c8a45a` |
-| Background dark | `#0f1a0c` |
-| Background card | `#111d0d` |
-| Font display | Playfair Display |
-| Font body | DM Sans |
+| Token                | Valor            |
+| -------------------- | ---------------- |
+| Forest 600 (primary) | `#3a5a30`        |
+| Forest 700           | `#2d4625`        |
+| Gold accent          | `#c8a45a`        |
+| Background dark      | `#0f1a0c`        |
+| Background card      | `#111d0d`        |
+| Font display         | Playfair Display |
+| Font body            | DM Sans          |
 
 ---
 

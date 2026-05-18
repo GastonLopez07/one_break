@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "5493513124567";
+const WHATSAPP_NUMBER = "5493513853153";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Hola!%20Quisiera%20saber%20c%C3%B3mo%20llegar%20al%20punto%20de%20encuentro.`;
 
 export default function Location() {

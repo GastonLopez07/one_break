@@ -16,7 +16,7 @@ const experiences = [
   { label: "Trekking entre Sierras" },
 ];
 
-const WHATSAPP_NUMBER = "5493513124567";
+const WHATSAPP_NUMBER = "5493513853153";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

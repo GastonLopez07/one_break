@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "5493513124567";
+const WHATSAPP_NUMBER = "5493513853153";
 
 // ─── DATA ─────────────────────────────────────────────────────────────────────
 // Reemplazá las imágenes cambiando los valores de `image` por la ruta real.
