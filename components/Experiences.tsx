@@ -16,7 +16,7 @@ const experiences = [
     description:
       "Recorridos a caballo por senderos escondidos entre las sierras cordobesas. Guías locales que conocen cada piedra, cada vista, cada silencio del monte.",
     variants: [
-      { label: "CORTA", detail: "2 hs · Todos los niveles", msg: "Hola! Quiero consultar sobre la Cabalgata Corta." },
+      { label: "CORTA", detail: "2 hs · Todos los niveles", msg: "Hola! Quiero consultar sobre la Cabalgata Corta.", highlight: false },
       { label: "FULL DAY", detail: "8 hs · Almuerzo criollo incluido", msg: "Hola! Quiero consultar sobre la Cabalgata Full Day.", highlight: true },
     ],
     // ← Reemplazá estas rutas con tus imágenes reales
@@ -34,7 +34,7 @@ const experiences = [
     description:
       "Senderos que no aparecen en los mapas. Cumbres desde donde el mundo se ve diferente. Una experiencia guiada por los paisajes más increíbles de Córdoba.",
     variants: [
-      { label: "ENTRE SIERRAS", detail: "6 hs · Nivel medio", msg: "Hola! Quiero consultar sobre el Trekking entre Sierras." },
+      { label: "ENTRE SIERRAS", detail: "6 hs · Nivel medio", msg: "Hola! Quiero consultar sobre el Trekking entre Sierras.", highlight: false },
     ],
     // ← Reemplazá estas rutas con tus imágenes reales
     images: [
