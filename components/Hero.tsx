@@ -23,7 +23,7 @@ export default function Hero() {
         aria-hidden="true"
         poster="/images/grupo2.png"
       >
-        <source src="/videos/drone.mp4" type="video/mp4" />
+          <source src="/videos/drone.mp4" type="video/mp4" />
       </video>
 
       {/* Overlays — más livianos para que se vea el video */}
