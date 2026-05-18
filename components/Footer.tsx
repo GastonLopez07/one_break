@@ -106,7 +106,7 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-4">
               {[
-                { icon: <PhoneIcon />, text: "+54 9 351 312 4567", href: `tel:+${WHATSAPP_NUMBER}` },
+                { icon: <PhoneIcon />, text: "+54 9 351 3853153", href: `tel:+${WHATSAPP_NUMBER}` },
                 { icon: <MailIcon />,  text: "info@onebreakadventure.com", href: "mailto:info@onebreakadventure.com" },
                 { icon: <PinIcon />,   text: "Sierras de Córdoba, Argentina" },
               ].map((item, i) => (
