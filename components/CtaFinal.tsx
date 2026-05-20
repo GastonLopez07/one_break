@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "5493513853153";
+const WHATSAPP_NUMBER = "+5493513853153";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Hola!%20Quiero%20reservar%20mi%20lugar%20en%20One%20Break%20Adventure.`;
 
 export default function CtaFinal() {
@@ -30,8 +30,8 @@ export default function CtaFinal() {
         <div className="reveal">
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-forest-600 hover:bg-forest-500 text-white
-                       font-semibold text-lg px-10 py-5 rounded-sm transition-all duration-300
-                       hover:shadow-[0_0_50px_rgba(77,115,64,0.5)] hover:-translate-y-1 active:scale-95"
+                      font-semibold text-lg px-10 py-5 rounded-sm transition-all duration-300
+                      hover:shadow-[0_0_50px_rgba(77,115,64,0.5)] hover:-translate-y-1 active:scale-95"
             style={{ fontFamily: "var(--font-condensed)", letterSpacing: "0.12em" }}
           >
             <WhatsAppIcon /> RESERVAR POR WHATSAPP

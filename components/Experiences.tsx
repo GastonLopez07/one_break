@@ -3,10 +3,9 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "5493513853153";
+const WHATSAPP_NUMBER = "+5493513853153";
 
-// ─── DATA ─────────────────────────────────────────────────────────────────────
-// Reemplazá las imágenes cambiando los valores de `image` por la ruta real.
+
 const experiences = [
   {
     id: "cabalgatas",
@@ -19,7 +18,6 @@ const experiences = [
       { label: "CORTA", detail: "2 hs · Todos los niveles", msg: "Hola! Quiero consultar sobre la Cabalgata Corta.", highlight: false },
       { label: "FULL DAY", detail: "8 hs · Almuerzo criollo incluido", msg: "Hola! Quiero consultar sobre la Cabalgata Full Day.", highlight: true },
     ],
-    // ← Reemplazá estas rutas con tus imágenes reales
     images: [
       { src: "/images/cabalgata-hero.png", alt: "Cabalgata al atardecer en las sierras de Córdoba" },
     ],
@@ -36,7 +34,6 @@ const experiences = [
     variants: [
       { label: "ENTRE SIERRAS", detail: "6 hs · Nivel medio", msg: "Hola! Quiero consultar sobre el Trekking entre Sierras.", highlight: false },
     ],
-    // ← Reemplazá estas rutas con tus imágenes reales
     images: [
       { src: "/images/trekking.png", alt: "Trekking al atardecer en las sierras de Córdoba" },
     ],
@@ -84,7 +81,6 @@ function ExperienceBlock({ exp }: { exp: typeof experiences[0] }) {
   return (
     <div className="relative min-h-screen lg:min-h-[90vh] flex flex-col lg:flex-row overflow-hidden group">
 
-      {/* ── IMAGE PANEL ── */}
       <div className={`relative w-full lg:w-3/5 h-[55vw] sm:h-[45vw] lg:h-auto min-h-[340px] overflow-hidden ${isLeft ? "lg:order-1" : "lg:order-2"}`}>
 
         {/* Images with crossfade */}

@@ -31,11 +31,8 @@ export default function VideoSection() {
           playsInline
           aria-hidden="true"
         >
-          {/* 
-            Reemplazá por tu video completo si tenés uno diferente.
-            Actualmente usa el mismo hero.mp4.
-          */}
-          <source src="/videos/hero.mp4" type="video/mp4" />
+
+          <source src="/videos/drone.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay */}
@@ -54,9 +51,9 @@ export default function VideoSection() {
                 <button
                   onClick={toggleVideo}
                   className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full flex items-center justify-center
-                             border border-white/20 backdrop-blur-sm bg-white/5
-                             transition-all duration-500 hover:border-forest-400/60 hover:bg-forest-900/40
-                             hover:shadow-[0_0_50px_rgba(77,115,64,0.3)] active:scale-95"
+                            border border-white/20 backdrop-blur-sm bg-white/5
+                            transition-all duration-500 hover:border-forest-400/60 hover:bg-forest-900/40
+                            hover:shadow-[0_0_50px_rgba(77,115,64,0.3)] active:scale-95"
                   aria-label={isPaused ? "Reproducir video" : "Pausar video"}
                 >
                   {isPaused ? <PlayIcon /> : <PauseIcon />}
@@ -84,8 +81,8 @@ export default function VideoSection() {
               <button
                 onClick={toggleVideo}
                 className="reveal inline-flex items-center gap-3 border border-forest-600/50 hover:border-forest-400
-                           text-white/70 hover:text-white text-sm px-6 py-3 rounded-sm
-                           transition-all duration-300 hover:bg-forest-900/30"
+                          text-white/70 hover:text-white text-sm px-6 py-3 rounded-sm
+                          transition-all duration-300 hover:bg-forest-900/30"
                 style={{ fontFamily: "var(--font-condensed)", letterSpacing: "0.1em" }}
               >
                 <PlayIcon small />

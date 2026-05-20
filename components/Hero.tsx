@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-const WHATSAPP_NUMBER = "5493513853153";
+const WHATSAPP_NUMBER = "+5493513853153";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Hola!%20Quiero%20reservar%20una%20experiencia%20con%20One%20Break%20Adventure.`;
 
 export default function Hero() {
@@ -23,7 +23,7 @@ export default function Hero() {
         aria-hidden="true"
         poster="/images/grupo2.png"
       >
-          <source src="/videos/drone.mp4" type="video/mp4" />
+        <source src="/videos/drone.mp4" type="video/mp4" />
       </video>
 
       {/* Overlays — más livianos para que se vea el video */}

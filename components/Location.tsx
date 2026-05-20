@@ -43,7 +43,7 @@ export default function Location() {
             </div>
             {[
               { icon: "pin",   label: "Ubicación", value: "Sierras de Córdoba, Argentina" },
-              { icon: "phone", label: "Teléfono",  value: "+54 9 351 3853153" },
+              { icon: "phone", label: "Teléfono",  value: "+5493513853153"},
               { icon: "mail",  label: "Email",     value: "info@onebreakadventure.com" },
             ].map((item) => (
               <div key={item.label} className="flex items-start gap-4 p-4 rounded-sm border border-forest-800/30 hover:border-forest-700/50 transition-colors duration-300">

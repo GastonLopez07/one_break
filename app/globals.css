@@ -134,3 +134,29 @@ body {
     @apply text-xs uppercase tracking-[0.25em] text-forest-400 font-semibold;
   }
 }
+
+/* Admin utility classes */
+.admin-label {
+  display: block;
+  font-family: var(--font-condensed);
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 0.375rem;
+  text-transform: uppercase;
+}
+
+.admin-input {
+  font-family: var(--font-body);
+  background: rgba(45, 70, 37, 0.15);
+  border: 1px solid rgba(45, 70, 37, 0.5);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 2px;
+  outline: none;
+  transition: border-color 0.2s;
+  font-size: 0.875rem;
+}
+.admin-input:focus {
+  border-color: #4d7340;
+}

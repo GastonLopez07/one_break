@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-// 9 imágenes en grid 3x3 perfectamente simétrico
-// Todas las fotos landscape se muestran en formato 4:3 uniforme
 const galleryItems = [
   { id: 1, src: "/images/grupo2.png",           alt: "Grupo en cabalgata panorámica" },
   { id: 2, src: "/images/chico-montando-1.png",  alt: "Jinete en las sierras" },

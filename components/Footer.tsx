@@ -16,7 +16,7 @@ const experiences = [
   { label: "Trekking entre Sierras" },
 ];
 
-const WHATSAPP_NUMBER = "5493513853153";
+const WHATSAPP_NUMBER = "+5493513853153";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -54,13 +54,13 @@ export default function Footer() {
             <div className="flex gap-3">
               {[
                 { label: "Instagram", href: "https://instagram.com/onebreakadventure", icon: <InstagramIcon /> },
-                { label: "Facebook",  href: "https://facebook.com/onebreakadventure",  icon: <FacebookIcon /> },
+                { label: "Facebook",  href: "https://www.facebook.com/profile.php?id=61574730130796",  icon: <FacebookIcon /> },
                 { label: "WhatsApp",  href: `https://wa.me/${WHATSAPP_NUMBER}`,         icon: <WhatsAppIcon /> },
               ].map((s) => (
                 <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}
                   className="w-9 h-9 rounded-sm border border-forest-800/50 flex items-center justify-center
-                              text-white/40 hover:text-white hover:border-forest-600/60
-                              transition-all duration-300 hover:-translate-y-0.5">
+                            text-white/40 hover:text-white hover:border-forest-600/60
+                            transition-all duration-300 hover:-translate-y-0.5">
                   {s.icon}
                 </a>
               ))}
@@ -106,8 +106,8 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-4">
               {[
-                { icon: <PhoneIcon />, text: "+54 9 351 3853153", href: `tel:+${WHATSAPP_NUMBER}` },
-                { icon: <MailIcon />,  text: "info@onebreakadventure.com", href: "mailto:info@onebreakadventure.com" },
+                { icon: <PhoneIcon />, text: "+54 9 3513853153", href: `tel:+${WHATSAPP_NUMBER}` },
+                { icon: <MailIcon />,  text: "onebreakturismo@gmail.com", href: "mailto:onebreakturismo@gmail.com"},
                 { icon: <PinIcon />,   text: "Sierras de Córdoba, Argentina" },
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-white/40 text-sm" style={{ fontFamily: "var(--font-body)" }}>
@@ -127,7 +127,7 @@ export default function Footer() {
           <p className="text-white/25 text-xs" style={{ fontFamily: "var(--font-body)" }}>
             © {currentYear} One Break Adventure. Todos los derechos reservados.
           </p>
-          <p className="text-[10px]">
+              <p className="text-[12px]">
           <a
             href="https://www.instagram.com/gastondev/"
             target="_blank"
